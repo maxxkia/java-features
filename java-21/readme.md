@@ -1,0 +1,1 @@
+Release reference https://openjdk.org/projects/jdk/21/
