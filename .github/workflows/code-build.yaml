@@ -11,7 +11,7 @@ jobs:
       - name: Set up JDK 22
         uses: actions/setup-java@v3
         with:
-          java-version: '22+9-ea'
+          java-version: '22.0.27'
           distribution: 'zulu'
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
