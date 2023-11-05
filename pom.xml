@@ -15,6 +15,7 @@
 
   <modules>
     <module>java-21</module>
+    <module>java-17</module>
   </modules>
 
   <properties>
