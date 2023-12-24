@@ -25,4 +25,14 @@ public class TextBlockTest {
 
     assertThat(block).isEqualTo("this text block does not have new lines");
   }
+
+  @Test
+  void textBlockWithSingleWhitespaceEscapeChar() {
+    String block = """
+        bag     \s
+        suitcase\s
+        hat     \s""";
+
+    assertThat(block).isEqualTo("bag      \nsuitcase \nhat      ");
+  }
 }
